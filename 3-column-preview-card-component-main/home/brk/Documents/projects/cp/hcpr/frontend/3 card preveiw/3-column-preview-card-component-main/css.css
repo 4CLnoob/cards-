@@ -1,0 +1,89 @@
+
+ Global values { 
+display: inherit;
+ }
+
+body {
+    content: center;
+
+}
+
+.container {
+margin: 2vh auto;    
+display: grid;
+justify-content: center;
+grid-template-columns: repeat(auto-fit, 50vh); 
+grid-gap:0;
+padding: 5vh;
+padding-top: 13vh;
+font-family:Lexend Deca;
+text-align: left;
+}    
+
+
+.sed {
+background-color:hsl(31, 77%, 52%);
+color: hsla(0, 0%, 100%, 0.75);
+padding: 1.8rem;
+padding-left: 8vh;
+height:auto ;
+border-top-left-radius: 0.5rem;
+border-bottom-left-radius: 0.5rem;
+}
+
+.sed button {
+color: hsl(31, 77%, 52%);
+}
+
+.lux {
+background-color:hsl(184, 100%, 22%);
+color: hsla(0, 0%, 100%, 0.75);
+padding: 1.8rem;
+padding-left: 8vh;
+height:auto ;
+border-top-right-radius: 0.5rem;
+border-bottom-right-radius: 0.5rem;
+
+}
+
+.suv {
+background-color: hsl(179, 100%, 13%);
+color:hsla(0, 0%, 100%, 0.75);
+padding: 1.8rem;
+padding-left: 8vh;
+height: auto;
+}
+
+.suv button {
+margin: 1;
+}
+
+h3 {
+font-family: Big Shoulders Display;
+font-weight:800;
+font-size: 4vh;
+font-stretch:extra-condensed;
+margin-bottom: 2.2rem;
+}
+
+p {
+font-weight:200;
+font-size: 2.8vh;
+line-height: 1;
+margin-bottom: 4rem;
+}
+
+.button {
+background-color: white;
+border-radius: 40px;
+color:  hsl(179, 100%, 13%);
+padding: .3rem;
+margin-top: 2.5rem;
+font-size: 0.8rem;
+cursor: pointer;
+}
+
+.button:hover {
+background-color: rgba(192, 192, 187, 0);
+color: white;
+}
